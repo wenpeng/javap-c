@@ -5,17 +5,17 @@
 
 |指令|释义|
 |---|---|
-|aconst_null | 将null对象引用压如栈|
-|iconst_1 | 将int类型常量 1压入栈|
-|iconst_m1 | 将int类型常量-1压入栈|
-|lconst_1 | 将long类型常量1压入栈|
-|fconst_1 | 将float类型常量1压入栈|
-|dconst_1 | 将double类型常量压入栈|
-|bipush | 将一个8位带符号整数压入栈中|
-|sipush | 将一个16位带符号整数压入栈中|
+|aconst_null | 将 null 对象引用压如栈|
+|iconst_1 | 将 int 类型常量 1 压入栈|
+|iconst_m1 | 将 int 类型常量 -1 压入栈|
+|lconst_1 | 将 long 类型常量 1 压入栈|
+|fconst_1 | 将 float 类型常量 1 压入栈|
+|dconst_1 | 将 double 类型常量压入栈|
+|bipush | 将一个 8 位带符号整数压入栈中|
+|sipush | 将一个 16 位带符号整数压入栈中|
 |idc | 把常量池中的项压入栈|
 |idc_w | 把常量池中的项压入栈(使用宽索引)|
-|idc2_w | 把常量池中long类型或者double类型的项压入栈(使用款索引)|
+|idc2_w | 把常量池中 long 类型或者 double 类型的项压入栈(使用款索引)|
 
 
 
@@ -23,24 +23,24 @@
 
 |指令|释义|
 |---|---|
-| iload | 从局部变量中装载int类型值 |
-| lload | 从局部变量中装载long类型值 |
-| fload | 从局部变量中装载float类型值 |
-| dload | 从局部变量中装载double类型值 |
+| iload | 从局部变量中装载 int 类型值 |
+| lload | 从局部变量中装载 long 类型值 |
+| fload | 从局部变量中装载 float 类型值 |
+| dload | 从局部变量中装载 double 类型值 |
 | aload | 从局部变量中装载引用类型的值(refernce) |
-| iload_0 | 从局部变量0中装载int类型值 |
-| lload_0 | 从局部变量0中装载long类型值 |
-| fload_0 | 从局部变量0中装载float类型值 |
-| dload_0 | 从局部变量0中装载double类型值 |
-| aload_0 | 从局部变量0中装载引用类型值 |
-| iaload | 从数组中装载int类型值 |
-| laload | 从数组中装载long类型值 |
-| faload | 从数组中装载float类型值 |
-| daload | 从数组中装载double类型值 |
+| iload_0 | 从局部变量 0 中装载 int 类型值 |
+| lload_0 | 从局部变量 0 中装载 long 类型值 |
+| fload_0 | 从局部变量 0 中装载 float 类型值 |
+| dload_0 | 从局部变量 0 中装载 double 类型值 |
+| aload_0 | 从局部变量 0 中装载引用类型值 |
+| iaload | 从数组中装载 int 类型值 |
+| laload | 从数组中装载 long 类型值 |
+| faload | 从数组中装载 float 类型值 |
+| daload | 从数组中装载 double 类型值 |
 | aaload | 从数组中装载引用类型值 |
-| baload | 从数组中装载byte类型或boolean类型值 |
-| caload | 从数组中装载char类型值 |
-| saload | 从数组中装载short类型值 |
+| baload | 从数组中装载 byte 类型或 boolean 类型值 |
+| caload | 从数组中装载 char 类型值 |
+| saload | 从数组中装载 short 类型值 |
 
 
 
@@ -48,35 +48,35 @@
 
 |指令|释义|
 |---|---|
-| istore | 将int类型值存入局部变量 |
-| lstore | 将long类型值存入局部变量 |
-| fstore | 将float类型值存入局部变量 |
-| dstore | 将double类型值存入局部变量 |
-| astore | 将将引用类型或returnAddress类型值存入局部变量 |
-| istore_0 | 将int类型值存入局部变量0 |
-| lstore_1 | 将long类型值存入局部变量1 |
-| fstore_0 | 将float类型值存入局部变量0 |
-| dstore_0 | 将double类型值存入局部变量0 |
-| astore_3 | 将引用类型或returnAddress类型值存入局部变量3 |
-| astore | 将int类型值存入数组中 |
-| lastore | 将long类型值存入数组中 |
-| fastore | 将float类型值存入数组中 |
-| dastore | 将double类型值存入数组中 |
+| istore | 将 int 类型值存入局部变量 |
+| lstore | 将 long 类型值存入局部变量 |
+| fstore | 将 float 类型值存入局部变量 |
+| dstore | 将 double 类型值存入局部变量 |
+| astore | 将将引用类型或 returnAddress 类型值存入局部变量 |
+| istore_0 | 将 int 类型值存入局部变量 0 |
+| lstore_1 | 将 long 类型值存入局部变量 1 |
+| fstore_0 | 将 float 类型值存入局部变量 0 |
+| dstore_0 | 将 double 类型值存入局部变量 0 |
+| astore_3 | 将引用类型或 returnAddress 类型值存入局部变量 3 |
+| astore | 将 int 类型值存入数组中 |
+| lastore | 将 long 类型值存入数组中 |
+| fastore | 将 float 类型值存入数组中 |
+| dastore | 将 double 类型值存入数组中 |
 | aastore | 将引用类型值存入数组中 |
-| bastore | 将byte类型或者boolean类型值存入数组中 |
-| castore | 将char类型值存入数组中 |
-| sastore | 将short类型值存入数组中 |
+| bastore | 将 byte 类型或者 boolean 类型值存入数组中 |
+| castore | 将 char 类型值存入数组中 |
+| sastore | 将 short 类型值存入数组中 |
 
 
 
-### wide指令
+### wide 指令
 |指令|释义|
 |---|---|
 | wide | 使用附加字节扩展局部变量索引 |
 
 
 
-### 通用(无类型）栈操作
+### 通用(无类型) 栈操作
 
 |指令|释义|
 |---|---|
@@ -84,46 +84,46 @@
 | pop | 弹出栈顶端一个字长的内容 | 
 | pop2 | 弹出栈顶端两个字长的内容 | 
 | dup | 复制栈顶部一个字长内容 | 
-| dup_x1 | 复制栈顶部一个字长的内容，然后将复制内容及原来弹出的两个字长的内容压入栈 | 
-| dup_x2 | 复制栈顶部一个字长的内容，然后将复制内容及原来弹出的三个字长的内容压入栈 | 
+| dup_x1 | 复制栈顶部一个字长的内容, 然后将复制内容及原来弹出的两个字长的内容压入栈 | 
+| dup_x2 | 复制栈顶部一个字长的内容, 然后将复制内容及原来弹出的三个字长的内容压入栈 | 
 | dup2 | 复制栈顶部两个字长内容 | 
-| dup2_x1 | 复制栈顶部两个字长的内容，然后将复制内容及原来弹出的三个字长的内容压入栈 | 
-| dup2_x2 | 复制栈顶部两个字长的内容，然后将复制内容及原来弹出的四个字长的内容压入栈 | 
+| dup2_x1 | 复制栈顶部两个字长的内容, 然后将复制内容及原来弹出的三个字长的内容压入栈 | 
+| dup2_x2 | 复制栈顶部两个字长的内容, 然后将复制内容及原来弹出的四个字长的内容压入栈 | 
 | swap | 交换栈顶部两个字长内容类型转换 | 
-| i2l | 把int类型的数据转化为long类型 | 
-| i2f | 把int类型的数据转化为float类型 | 
-| i2d | 把int类型的数据转化为double类型 | 
-| l2i | 把long类型的数据转化为int类型 | 
-| l2f | 把long类型的数据转化为float类型 | 
-| l2d | 把long类型的数据转化为double类型 | 
-| f2i | 把float类型的数据转化为int类型 | 
-| f2l | 把float类型的数据转化为long类型 | 
-| f2d | 把float类型的数据转化为double类型 | 
-| d2i | 把double类型的数据转化为int类型 | 
-| d2l | 把double类型的数据转化为long类型 | 
-| d2f | 把double类型的数据转化为float类型 | 
-| i2b | 把int类型的数据转化为byte类型 | 
-| i2c | 把int类型的数据转化为char类型 | 
-| i2s | 把int类型的数据转化为short类型 | 
+| i2l | 把 int 类型的数据转化为 long 类型 | 
+| i2f | 把 int 类型的数据转化为 float 类型 | 
+| i2d | 把 int 类型的数据转化为 double 类型 | 
+| l2i | 把 long 类型的数据转化为 int 类型 | 
+| l2f | 把 long 类型的数据转化为 float 类型 | 
+| l2d | 把 long 类型的数据转化为 double 类型 | 
+| f2i | 把 float 类型的数据转化为 int 类型 | 
+| f2l | 把 float 类型的数据转化为 long 类型 | 
+| f2d | 把 float 类型的数据转化为 double 类型 | 
+| d2i | 把 double 类型的数据转化为 int 类型 | 
+| d2l | 把 double 类型的数据转化为 long 类型 | 
+| d2f | 把 double 类型的数据转化为 float 类型 | 
+| i2b | 把 int 类型的数据转化为 byte 类型 | 
+| i2c | 把 int 类型的数据转化为 char 类型 | 
+| i2s | 把 int 类型的数据转化为 short 类型 | 
 
 
 ### 整数运算
 
 |指令|释义|
 |---|---|
-| iadd | 执行int类型的加法 | 
-| ladd | 执行long类型的加法 | 
-| isub | 执行int类型的减法 | 
-| lsub | 执行long类型的减法 | 
-| imul | 执行int类型的乘法 | 
-| lmul | 执行long类型的乘法 | 
-| idiv | 执行int类型的除法 | 
-| ldiv | 执行long类型的除法 | 
-| irem | 计算int类型除法的余数 | 
-| lrem | 计算long类型除法的余数 | 
-| ineg | 对一个int类型值进行取反操作 | 
-| lneg | 对一个long类型值进行取反操作 | 
-| iinc | 把一个常量值加到一个int类型的局部变量上 |
+| iadd | 执行 int 类型的加法 | 
+| ladd | 执行 long 类型的加法 | 
+| isub | 执行 int 类型的减法 | 
+| lsub | 执行 long 类型的减法 | 
+| imul | 执行 int 类型的乘法 | 
+| lmul | 执行 long 类型的乘法 | 
+| idiv | 执行 int 类型的除法 | 
+| ldiv | 执行 long 类型的除法 | 
+| irem | 计算 int 类型除法的余数 | 
+| lrem | 计算 long 类型除法的余数 | 
+| ineg | 对一个 int 类型值进行取反操作 | 
+| lneg | 对一个 long 类型值进行取反操作 | 
+| iinc | 把一个常量值加到一个 int 类型的局部变量上 |
 
 
 
@@ -132,42 +132,42 @@
 
 |指令|释义|
 |---|---|
-| ishl | 执行int类型的向左移位操作 | 
-| lshl | 执行long类型的向左移位操作 | 
-| ishr | 执行int类型的向右移位操作 | 
-| lshr | 执行long类型的向右移位操作 | 
-| iushr | 执行int类型的向右逻辑移位操作 | 
-| lushr | 执行long类型的向右逻辑移位操作 | 
+| ishl | 执行 int 类型的向左移位操作 | 
+| lshl | 执行 long 类型的向左移位操作 | 
+| ishr | 执行 int 类型的向右移位操作 | 
+| lshr | 执行 long 类型的向右移位操作 | 
+| iushr | 执行 int 类型的向右逻辑移位操作 | 
+| lushr | 执行 long 类型的向右逻辑移位操作 | 
 
 
 ### 按位布尔运算
 
 |指令|释义|
 |---|---|
-| iand | 对int类型值进行“逻辑与”操作 | 
-| land | 对long类型值进行“逻辑与”操作 | 
-| ior | 对int类型值进行“逻辑或”操作 | 
-| lor | 对long类型值进行“逻辑或”操作 | 
-| ixor | 对int类型值进行“逻辑异或”操作 | 
-| lxor | 对long类型值进行“逻辑异或”操作 | 
+| iand | 对 int 类型值进行“逻辑与”操作 | 
+| land | 对 long 类型值进行“逻辑与”操作 | 
+| ior | 对 int 类型值进行“逻辑或”操作 | 
+| lor | 对 long 类型值进行“逻辑或”操作 | 
+| ixor | 对 int 类型值进行“逻辑异或”操作 | 
+| lxor | 对 long 类型值进行“逻辑异或”操作 | 
 
 
 ### 浮点运算
 
 |指令|释义|
 |---|---|
-| fadd | 执行float类型的加法 | 
-| dadd | 执行double类型的加法 | 
-| fsub | 执行float类型的减法 | 
-| dsub | 执行double类型的减法 | 
-| fmul | 执行float类型的乘法 | 
-| dmul | 执行double类型的乘法 | 
-| fdiv | 执行float类型的除法 | 
-| ddiv | 执行double类型的除法 | 
-| frem | 计算float类型除法的余数 | 
-| drem | 计算double类型除法的余数 | 
-| fneg | 将一个float类型的数值取反 | 
-| dneg | 将一个double类型的数值取反 | 
+| fadd | 执行 float 类型的加法 | 
+| dadd | 执行 double 类型的加法 | 
+| fsub | 执行 float 类型的减法 | 
+| dsub | 执行 double 类型的减法 | 
+| fmul | 执行 float 类型的乘法 | 
+| dmul | 执行 double 类型的乘法 | 
+| fdiv | 执行 float 类型的除法 | 
+| ddiv | 执行 double 类型的除法 | 
+| frem | 计算 float 类型除法的余数 | 
+| drem | 计算 double 类型除法的余数 | 
+| fneg | 将一个 float 类型的数值取反 | 
+| dneg | 将一个 double 类型的数值取反 | 
 
 
 
@@ -199,22 +199,22 @@
 
 |指令|释义|
 |---|---|
-| ifeq | 如果等于0，则跳转 |
-| ifne | 如果不等于0，则跳转 |
-| iflt | 如果小于0，则跳转 |
-| ifge | 如果大于等于0，则跳转 |
-| ifgt | 如果大于0，则跳转 |
-| ifle | 如果小于等于0，则跳转 |
-| if_icmpcq | 如果两个int值相等，则跳转 |
-| if_icmpne | 如果两个int类型值不相等，则跳转 |
-| if_icmplt | 如果一个int类型值小于另外一个int类型值，则跳转 |
-| if_icmpge | 如果一个int类型值大于或者等于另外一个int类型值，则跳转 |
-| if_icmpgt | 如果一个int类型值大于另外一个int类型值，则跳转 |
-| if_icmple | 如果一个int类型值小于或者等于另外一个int类型值，则跳转 |
-| ifnull | 如果等于null，则跳转 |
-| ifnonnull | 如果不等于null，则跳转 |
-| if_acmpeq | 如果两个对象引用相等，则跳转 |
-| if_acmpnc | 如果两个对象引用不相等，则跳转 |
+| ifeq | 如果等于 0, 则跳转 |
+| ifne | 如果不等于 0, 则跳转 |
+| iflt | 如果小于 0, 则跳转 |
+| ifge | 如果大于等于 0, 则跳转 |
+| ifgt | 如果大于 0, 则跳转 |
+| ifle | 如果小于等于 0, 则跳转 |
+| if_icmpcq | 如果两个 int 值相等, 则跳转 |
+| if_icmpne | 如果两个 int 类型值不相等, 则跳转 |
+| if_icmplt | 如果一个 int 类型值小于另外一个 int 类型值, 则跳转 |
+| if_icmpge | 如果一个 int 类型值大于或者等于另外一个 int 类型值, 则跳转 |
+| if_icmpgt | 如果一个 int 类型值大于另外一个 int 类型值, 则跳转 |
+| if_icmple | 如果一个 int 类型值小于或者等于另外一个 int 类型值, 则跳转 |
+| ifnull | 如果等于 null, 则跳转 |
+| ifnonnull | 如果不等于 null, 则跳转 |
+| if_acmpeq | 如果两个对象引用相等, 则跳转 |
+| if_acmpnc | 如果两个对象引用不相等, 则跳转 |
 
 
 
@@ -222,35 +222,35 @@
 
 |指令|释义|
 |---|---|
-| lcmp | 比较long类型值 |
-| fcmpl | 比较float类型值（当遇到NaN时，返回-1） |
-| fcmpg | 比较float类型值（当遇到NaN时，返回1） |
-| dcmpl | 比较double类型值（当遇到NaN时，返回-1） |
-| dcmpg | 比较double类型值（当遇到NaN时，返回1） |
+| lcmp | 比较 long 类型值 |
+| fcmpl | 比较 float 类型值 (当遇到 NaN 时, 返回 -1)  |
+| fcmpg | 比较 float 类型值 (当遇到 NaN 时, 返回 1)  |
+| dcmpl | 比较 double 类型值 (当遇到 NaN 时, 返回 -1)  |
+| dcmpg | 比较 double 类型值 (当遇到 NaN 时, 返回 1)  |
 
 
 ### 无条件转移指令
 |指令|释义|
 |---|---|
 | goto | 无条件跳转| 
-| goto_w | 无条件跳转（宽索引）| 
+| goto_w | 无条件跳转 (宽索引) | 
 
 ### 表跳转指令
 |指令|释义|
 |---|---|
-| tableswitch | 通过索引访问跳转表，并跳转| 
-| lookupswitch | 通过键值匹配访问跳转表，并执行跳转操作| 
+| tableswitch | 通过索引访问跳转表, 并跳转| 
+| lookupswitch | 通过键值匹配访问跳转表, 并执行跳转操作| 
 
 ### 异常
 |指令|释义|
 |---|---|
 | athrow | 抛出异常或错误| 
 
-### finally子句
+### finally 子句
 |指令|释义|
 |---|---|
 | jsr | 跳转到子例程| 
-| jsr_w | 跳转到子例程（宽索引）| 
+| jsr_w | 跳转到子例程 (宽索引) | 
 | rct | 从子例程返回| 
 
 
@@ -260,8 +260,8 @@
 |指令|释义|
 |---|---|
 | invokcvirtual | 运行时按照对象的类来调用实例方法| 
-| invokespecial | 根据编译时类型来调用实例方法 ==>调用超类构造方法、实例初始化方法、私有方法| 
-| invokestatic | 调用类（静态）方法| 
+| invokespecial | 根据编译时类型来调用实例方法 ==> 调用超类构造方法、实例初始化方法、私有方法| 
+| invokestatic | 调用类 (静态) 方法| 
 | invokcinterface | 调用接口方法| 
 
 
@@ -270,12 +270,12 @@
 
 |指令|释义|
 |---|---|
-| ireturn | 从方法中返回int类型的数据 |
-| lreturn | 从方法中返回long类型的数据 |
-| freturn | 从方法中返回float类型的数据 |
-| dreturn | 从方法中返回double类型的数据 |
+| ireturn | 从方法中返回 int 类型的数据 |
+| lreturn | 从方法中返回 long 类型的数据 |
+| freturn | 从方法中返回 float 类型的数据 |
+| dreturn | 从方法中返回 double 类型的数据 |
 | areturn | 从方法中返回引用类型的数据 |
-| return  | 从方法中返回，返回值为void |
+| return  | 从方法中返回, 返回值为 void |
 
 
 
@@ -288,7 +288,7 @@
 
 
 
-### JVM指令助记符
+### JVM 指令助记符
 
 |指令|释义|
 |---|---|
@@ -305,8 +305,8 @@
 | 按位或 | ior, lor|
 | 按位与 | iand, land|
 | 按位异或 | ixor, lxor|
-| 类型转换-放宽数值转换 | i2l, i2f, i2d, l2f, l2d, f2d|
-| 类型转换-缩窄数值转换 | i2b, i2c, i2s, l2i, f2i, f2l, d2i, d2l, d2f|
+| 类型转换 - 放宽数值转换 | i2l, i2f, i2d, l2f, l2d, f2d|
+| 类型转换 - 缩窄数值转换 | i2b, i2c, i2s, l2i, f2i, f2l, d2i, d2l, d2f|
 | 创建类实便 | new|
 | 创建新数组 | newarray, anewarray, multianwarray|
 | 访问类的域和类实例域 | getfield, putfield, getstatic, putstatic|
@@ -324,4 +324,4 @@
 | 调用命名类中的静态方法 | invokestatic|
 | 方法返回 | ireturn, lreturn, freturn, dreturn, areturn, return|
 | 异常 | athrow|
-| finally关键字的实现使用 | jsr, jsr_w, ret|
+| finally 关键字的实现使用 | jsr, jsr_w, ret|
